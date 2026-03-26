@@ -454,6 +454,15 @@ export default function App() {
                     {result.personalizedMessage}
                   </p>
                 </div>
+
+                {/* Premium CTA */}
+                <div className="bg-amber-500/10 border border-amber-500/30 rounded-3xl p-6 text-center space-y-4">
+                  <h4 className="text-amber-400 font-bold uppercase tracking-widest text-sm">Aprofunde sua Jornada</h4>
+                  <p className="text-slate-300 text-sm">Obtenha o Guia Completo de 40 páginas sobre sua essência e caminhos futuros.</p>
+                  <button className="w-full py-3 bg-amber-500 text-slate-900 font-bold rounded-xl hover:bg-amber-400 transition-all shadow-lg">
+                    Baixar Relatório Completo • R$ 47,00
+                  </button>
+                </div>
               </div>
 
               <button 
